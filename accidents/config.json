@@ -1,0 +1,15 @@
+{
+  "type": "cartoVL",
+  "map": {
+    "container": "map",
+    "style": "carto.basemaps.positron",
+    "center": [-73.5673, 45.5017],
+    "zoom": 12
+  },
+  "layers": [
+    {
+      "resource": "accidents_2012_2017",
+      "viz": {}
+    }
+  ]
+}
