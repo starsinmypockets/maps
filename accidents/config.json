@@ -2,7 +2,7 @@
   "type": "cartoVL",
   "map": {
     "container": "map",
-    "style": "http://basemaps.cartocdn.com/positron/style.json",
+    "style": "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
     "center": [-73.5673, 45.5017],
     "zoom": 12
   },
