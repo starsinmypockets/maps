@@ -8,7 +8,7 @@
   },
   "layers": [
     {
-      "resource": "accidents_2012_2017",
+      "source": "accidents_2012_2017",
       "viz": {}
     }
   ]
