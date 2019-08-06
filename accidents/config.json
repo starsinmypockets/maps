@@ -9,7 +9,7 @@
   "layers": [
     {
       "source": "accidents_2012_2017",
-      "viz": "color: ramp(buckets(prop('nb_victimes_total'), [1,2,3,4,5]), Prism) \n @streetname: $rue_accdn \n @year: $an"
+      "viz": "color: ramp(buckets(prop('nb_victimes_total'), [1,2,3,4,5]), Prism) \n @streetname: $rue_accdn \n @year: $an \n @victims: $nb_victimes_total"
     }
   ]
 }
