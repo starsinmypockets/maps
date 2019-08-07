@@ -36,6 +36,26 @@ Associated maps will be available at:
 * `https://NGSITE.com/maps/311-calls-2018`
 5. Add a valid config file to each directory, for example:
 
+
+
+## Configuration
+
+One `config.json` per directory.
+
+### Via iframe
+
+To load map via iframe create carto map, publish and copy iframe link into config, as follows:
+
+```json
+{
+  "type": "iframe",
+  "url": "{PASTE URL HERE}"
+}
+```
+
+### Via cartoVL
+
+
 ```json
 {
   "type": "cartoVL",
@@ -54,16 +74,12 @@ Associated maps will be available at:
 }
 ```
 
-
-## Configuration
-
-Configuration files should be named `config.json` and can contain the following attributes:
-
 #### type
 
- `cartoVL` is the only currently supported visualization type
+* `cartoVL`
 
 #### map 
+
 mapboxgl [Map options object](https://docs.mapbox.com/mapbox-gl-js/api/#map)  
 
 Some optional attributes include:
